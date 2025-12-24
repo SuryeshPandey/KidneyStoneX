@@ -92,18 +92,16 @@ A structured radiology-style report is generated, including:
 
 ---
 
-## 🖥️ Demo Screenshots (To Be Added)
-
-> 📸 **Placeholder** — You can add screenshots here later
+## 🖥️ Demo Screenshots
 
 ```md
 <!-- Example -->
-![Detection Output with Segmentation Overlay](assets/Screenshot 2025-12-24 at 4.22.27 PM.png)
-![Detection Output with Segmentation Overlay](assets/Screenshot 2025-12-24 at 4.27.02 PM.png)
-![Occlusion Heatmap](assets/Screenshot 2025-12-24 at 4.23.59 PM.png)
-![Generated Report](assets/Screenshot 2025-12-24 at 4.22.44 PM.png)
-![Detection Output of Argumented Image with Noise](assets/Screenshot 2025-12-24 at 4.22.34 PM.png)
-![Multiple Stone Detection in 1 Image](assets/Screenshot 2025-12-24 at 4.31.17 PM.png)
+![Detection Output with Segmentation Overlay](assets/1.png)
+![Detection Output with Segmentation Overlay](assets/2.png)
+![Occlusion Heatmap](assets/3.png)
+![Generated Report](assets/4.png)
+![Detection Output of Argumented Image with Noise](assets/5.png)
+![Multiple Stone Detection in 1 Image](assets/6.png)
 ```
 ---
 ## 📁 Project Structure
