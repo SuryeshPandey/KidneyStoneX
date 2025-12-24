@@ -1,0 +1,34 @@
+# =========================
+# Python / Virtual Envs
+# =========================
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Large / Private Data
+# =========================
+data/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+
+# =========================
+# Model Training Artifacts
+# =========================
+runs/
+logs/
+*.pt
+*.pth
+
+# (Optional) If you want to keep models, comment above and selectively add them
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+.vscode/
+.idea/
