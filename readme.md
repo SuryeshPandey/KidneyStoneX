@@ -93,16 +93,18 @@ A structured radiology-style report is generated, including:
 ---
 
 ## 🖥️ Demo Screenshots
-
-```md
-<!-- Example -->
+### 🔍 Stone Detection + Segmentation Overlay
 ![Detection Output with Segmentation Overlay](assets/1.png)
 ![Detection Output with Segmentation Overlay](assets/2.png)
+### 🔥 Occlusion Sensitivity Heatmap
 ![Occlusion Heatmap](assets/3.png)
+### 📝 Automated Diagnostic Report
 ![Generated Report](assets/4.png)
+### 🧪 Robustness Test (Augmented Image with Noise)
 ![Detection Output of Argumented Image with Noise](assets/5.png)
+### 🪨 Multiple Stone Detection
 ![Multiple Stone Detection in 1 Image](assets/6.png)
-```
+
 ---
 ## 📁 Project Structure
 
