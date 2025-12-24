@@ -111,6 +111,31 @@ A structured radiology-style report is generated, including:
 ![Multiple Stone Detection in 1 Image](assets/6.png)
 
 ---
+
+## 📊 Model Performance & Evaluation
+
+### YOLOv8 Stone Detection Performance
+
+The final YOLOv8 model was evaluated on a held-out validation set consisting of manually verified CT axial slices containing kidney stones. Given the challenges of **small object detection**, **class imbalance**, and a **positive-only training setup**, the following results were achieved:
+
+| Metric        | Score |
+|---------------|-------|
+| **mAP@50**    | **0.765** |
+| **mAP@50–95** | **0.418** |
+
+**Interpretation:**
+- **mAP@50** indicates strong localization accuracy for detected kidney stones.
+- **mAP@50–95** reflects consistent performance across stricter IoU thresholds, which is particularly challenging for very small, high-density objects in CT images.
+
+> ℹ️ These results were achieved **without an explicit non-stone class**, meaning the model learned *what stones look like* rather than learning from negative examples. This design choice prioritizes sensitivity in clinical screening scenarios.
+
+### Evaluation Context
+
+- Kidney stones often occupy only a **few pixels**, making detection inherently difficult.
+- Ground-truth annotations required **manual correction** due to early vertebral false positives.
+- Performance metrics should be interpreted in the context of **medical imaging constraints** and should not be directly compared to natural-image detection benchmarks.
+
+ ---
 ## 📁 Project Structure
 
 ```
